@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run ",
+            "detail": "Run url shorter application for flatpak vscode and toolbox config",
+            "type": "shell",
+            "command": "flatpak-spawn --host toolbox run -c development npm test",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        }
+    ]
+}
